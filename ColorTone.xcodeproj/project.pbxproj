@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC2E7CE718961F1B0082D873 /* CTDrum.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2E7CE618961F1B0082D873 /* CTDrum.m */; };
+		DC2E7CEA189629700082D873 /* CTRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2E7CE9189629700082D873 /* CTRoundButton.m */; };
 		DCD492811895F4D1006BC4C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD492801895F4D1006BC4C4 /* Foundation.framework */; };
 		DCD492831895F4D1006BC4C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD492821895F4D1006BC4C4 /* CoreGraphics.framework */; };
 		DCD492851895F4D1006BC4C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD492841895F4D1006BC4C4 /* UIKit.framework */; };
@@ -21,6 +23,13 @@
 		DCD492A21895F4D1006BC4C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD492841895F4D1006BC4C4 /* UIKit.framework */; };
 		DCD492AA1895F4D1006BC4C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCD492A81895F4D1006BC4C4 /* InfoPlist.strings */; };
 		DCD492AC1895F4D1006BC4C4 /* ColorToneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD492AB1895F4D1006BC4C4 /* ColorToneTests.m */; };
+		DCD492BB1895F5C0006BC4C4 /* TDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD492B61895F5C0006BC4C4 /* TDGenerator.m */; };
+		DCD492BC1895F5C0006BC4C4 /* TDHarmonicsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD492B81895F5C0006BC4C4 /* TDHarmonicsGenerator.m */; };
+		DCD492BD1895F5C0006BC4C4 /* TDSineGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD492BA1895F5C0006BC4C4 /* TDSineGenerator.m */; };
+		DCD492C11895F651006BC4C4 /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD492BE1895F651006BC4C4 /* libTheAmazingAudioEngine.a */; };
+		DCD492C21895F651006BC4C4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD492BF1895F651006BC4C4 /* Accelerate.framework */; };
+		DCD492C31895F651006BC4C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD492C01895F651006BC4C4 /* AudioToolbox.framework */; };
+		DCD492C61895F668006BC4C4 /* ADSR.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD492C51895F668006BC4C4 /* ADSR.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC2E7CE518961F1B0082D873 /* CTDrum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDrum.h; sourceTree = "<group>"; };
+		DC2E7CE618961F1B0082D873 /* CTDrum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDrum.m; sourceTree = "<group>"; };
+		DC2E7CE8189629700082D873 /* CTRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTRoundButton.h; sourceTree = "<group>"; };
+		DC2E7CE9189629700082D873 /* CTRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTRoundButton.m; sourceTree = "<group>"; };
 		DCD4927D1895F4D1006BC4C4 /* ColorTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD492801895F4D1006BC4C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DCD492821895F4D1006BC4C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,17 @@
 		DCD492A71895F4D1006BC4C4 /* ColorToneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorToneTests-Info.plist"; sourceTree = "<group>"; };
 		DCD492A91895F4D1006BC4C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCD492AB1895F4D1006BC4C4 /* ColorToneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorToneTests.m; sourceTree = "<group>"; };
+		DCD492B51895F5C0006BC4C4 /* TDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDGenerator.h; sourceTree = "<group>"; };
+		DCD492B61895F5C0006BC4C4 /* TDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDGenerator.m; sourceTree = "<group>"; };
+		DCD492B71895F5C0006BC4C4 /* TDHarmonicsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDHarmonicsGenerator.h; sourceTree = "<group>"; };
+		DCD492B81895F5C0006BC4C4 /* TDHarmonicsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDHarmonicsGenerator.m; sourceTree = "<group>"; };
+		DCD492B91895F5C0006BC4C4 /* TDSineGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSineGenerator.h; sourceTree = "<group>"; };
+		DCD492BA1895F5C0006BC4C4 /* TDSineGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSineGenerator.m; sourceTree = "<group>"; };
+		DCD492BE1895F651006BC4C4 /* libTheAmazingAudioEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTheAmazingAudioEngine.a; path = "../ToneDrum/TheAmazingAudioEngine/build/Debug-iphoneos/libTheAmazingAudioEngine.a"; sourceTree = "<group>"; };
+		DCD492BF1895F651006BC4C4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DCD492C01895F651006BC4C4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DCD492C41895F668006BC4C4 /* ADSR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSR.h; sourceTree = "<group>"; };
+		DCD492C51895F668006BC4C4 /* ADSR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSR.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD492C11895F651006BC4C4 /* libTheAmazingAudioEngine.a in Frameworks */,
+				DCD492C21895F651006BC4C4 /* Accelerate.framework in Frameworks */,
+				DCD492C31895F651006BC4C4 /* AudioToolbox.framework in Frameworks */,
 				DCD492831895F4D1006BC4C4 /* CoreGraphics.framework in Frameworks */,
 				DCD492851895F4D1006BC4C4 /* UIKit.framework in Frameworks */,
 				DCD492811895F4D1006BC4C4 /* Foundation.framework in Frameworks */,
@@ -101,6 +128,9 @@
 		DCD4927F1895F4D1006BC4C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCD492BE1895F651006BC4C4 /* libTheAmazingAudioEngine.a */,
+				DCD492BF1895F651006BC4C4 /* Accelerate.framework */,
+				DCD492C01895F651006BC4C4 /* AudioToolbox.framework */,
 				DCD492801895F4D1006BC4C4 /* Foundation.framework */,
 				DCD492821895F4D1006BC4C4 /* CoreGraphics.framework */,
 				DCD492841895F4D1006BC4C4 /* UIKit.framework */,
@@ -112,11 +142,23 @@
 		DCD492861895F4D1006BC4C4 /* ColorTone */ = {
 			isa = PBXGroup;
 			children = (
+				DCD492C41895F668006BC4C4 /* ADSR.h */,
+				DCD492C51895F668006BC4C4 /* ADSR.m */,
+				DCD492B51895F5C0006BC4C4 /* TDGenerator.h */,
+				DCD492B61895F5C0006BC4C4 /* TDGenerator.m */,
+				DCD492B71895F5C0006BC4C4 /* TDHarmonicsGenerator.h */,
+				DCD492B81895F5C0006BC4C4 /* TDHarmonicsGenerator.m */,
+				DC2E7CE518961F1B0082D873 /* CTDrum.h */,
+				DC2E7CE618961F1B0082D873 /* CTDrum.m */,
+				DCD492B91895F5C0006BC4C4 /* TDSineGenerator.h */,
+				DCD492BA1895F5C0006BC4C4 /* TDSineGenerator.m */,
 				DCD4928F1895F4D1006BC4C4 /* CTAppDelegate.h */,
 				DCD492901895F4D1006BC4C4 /* CTAppDelegate.m */,
 				DCD492921895F4D1006BC4C4 /* Main.storyboard */,
 				DCD492951895F4D1006BC4C4 /* CTViewController.h */,
 				DCD492961895F4D1006BC4C4 /* CTViewController.m */,
+				DC2E7CE8189629700082D873 /* CTRoundButton.h */,
+				DC2E7CE9189629700082D873 /* CTRoundButton.m */,
 				DCD492981895F4D1006BC4C4 /* Images.xcassets */,
 				DCD492871895F4D1006BC4C4 /* Supporting Files */,
 			);
@@ -252,7 +294,13 @@
 			files = (
 				DCD4928D1895F4D1006BC4C4 /* main.m in Sources */,
 				DCD492911895F4D1006BC4C4 /* CTAppDelegate.m in Sources */,
+				DC2E7CE718961F1B0082D873 /* CTDrum.m in Sources */,
+				DCD492BD1895F5C0006BC4C4 /* TDSineGenerator.m in Sources */,
+				DCD492BC1895F5C0006BC4C4 /* TDHarmonicsGenerator.m in Sources */,
 				DCD492971895F4D1006BC4C4 /* CTViewController.m in Sources */,
+				DCD492C61895F668006BC4C4 /* ADSR.m in Sources */,
+				DC2E7CEA189629700082D873 /* CTRoundButton.m in Sources */,
+				DCD492BB1895F5C0006BC4C4 /* TDGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,11 +425,18 @@
 		DCD492B01895F4D1006BC4C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorTone/ColorTone-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/TheAmazingAudioEngine/TheAmazingAudioEngine",
+				);
 				INFOPLIST_FILE = "ColorTone/ColorTone-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/TheAmazingAudioEngine/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,11 +445,18 @@
 		DCD492B11895F4D1006BC4C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorTone/ColorTone-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/TheAmazingAudioEngine/TheAmazingAudioEngine",
+				);
 				INFOPLIST_FILE = "ColorTone/ColorTone-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/TheAmazingAudioEngine/";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +523,7 @@
 				DCD492B11895F4D1006BC4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCD492B21895F4D1006BC4C4 /* Build configuration list for PBXNativeTarget "ColorToneTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +532,7 @@
 				DCD492B41895F4D1006BC4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

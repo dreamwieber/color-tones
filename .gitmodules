@@ -1,0 +1,6 @@
+[submodule "TheAmazingAudioEngine"]
+	path = TheAmazingAudioEngine
+	url = https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine.git
+[submodule "Colours"]
+	path = Colours
+	url = https://github.com/bennyguitar/Colours.git
