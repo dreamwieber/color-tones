@@ -7,7 +7,6 @@
 //
 
 #import "TDHarmonicsGenerator.h"
-#include <float.h>
 
 @interface TDHarmonicsGenerator () {
     @public

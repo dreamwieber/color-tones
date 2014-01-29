@@ -14,6 +14,8 @@ Run:
     git submodule update
     pod install
 
+Open the generated .xcworkspace file and add TheAmazingAudioEngine/TheAmazingAudioEngine.xcproject to your project, at the top level.
+
 Use the .xcworkspace file to build and run the project.
 
      
