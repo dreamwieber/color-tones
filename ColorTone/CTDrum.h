@@ -11,6 +11,8 @@
 @interface CTDrum : TDGenerator
 
 @property (nonatomic, readwrite) float frequency;
+@property (nonatomic, readwrite) NSTimeInterval decayT;
+@property (nonatomic, readwrite) NSTimeInterval releaseT;
 
 + (instancetype)drumWithFrequency:(float)frequency;
 

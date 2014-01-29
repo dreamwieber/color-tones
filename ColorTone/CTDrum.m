@@ -74,4 +74,20 @@
     self.adsr.gateOpen = NO;
 }
 
+- (void)setFrequency:(float)frequency
+{
+    _frequency = frequency;
+    self.harmonicsGenerator.baseFrequency = frequency;
+}
+
+- (void)setDecayT:(NSTimeInterval)decayT
+{
+    self.adsr.decayT = decayT;
+}
+
+- (void)setReleaseT:(NSTimeInterval)releaseT
+{
+    self.adsr.releaseT = releaseT;
+}
+
 @end

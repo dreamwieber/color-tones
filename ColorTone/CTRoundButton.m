@@ -33,8 +33,8 @@
 
 - (void)animate
 {
-    [UIView animateWithDuration:.1 delay:0 usingSpringWithDamping:.3 initialSpringVelocity:0 options:0 animations:^{
-        self.layer.transform = CATransform3DMakeScale(1.12, 1.12, 1.12);
+    [UIView animateWithDuration:.1 delay:0 usingSpringWithDamping:.2 initialSpringVelocity:0 options:0 animations:^{
+        self.layer.transform = CATransform3DMakeScale(2, 2, 2);
     } completion:^(BOOL finished) {
         self.layer.transform = CATransform3DIdentity;
         

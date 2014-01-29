@@ -4,3 +4,6 @@
 [submodule "Colours"]
 	path = Colours
 	url = https://github.com/bennyguitar/Colours.git
+[submodule "OCTotallyLazy"]
+	path = OCTotallyLazy
+	url = https://github.com/stuartervine/OCTotallyLazy.git

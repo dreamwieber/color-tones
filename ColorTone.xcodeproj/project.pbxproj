@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FA314CD466A4F52BAD6B86B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F542198F7548F0B1A4A96F /* libPods.a */; };
 		DC2E7CE718961F1B0082D873 /* CTDrum.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2E7CE618961F1B0082D873 /* CTDrum.m */; };
 		DC2E7CEA189629700082D873 /* CTRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2E7CE9189629700082D873 /* CTRoundButton.m */; };
+		DC2E7CED189639720082D873 /* CTMusicHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2E7CEC189639720082D873 /* CTMusicHelper.m */; };
+		DC2E7D90189640B10082D873 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2E7D8F189640B10082D873 /* Colours.m */; };
 		DCD492811895F4D1006BC4C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD492801895F4D1006BC4C4 /* Foundation.framework */; };
 		DCD492831895F4D1006BC4C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD492821895F4D1006BC4C4 /* CoreGraphics.framework */; };
 		DCD492851895F4D1006BC4C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD492841895F4D1006BC4C4 /* UIKit.framework */; };
@@ -43,10 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68F542198F7548F0B1A4A96F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7124726245BF4D93AF29C9AE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		DC2E7CE518961F1B0082D873 /* CTDrum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDrum.h; sourceTree = "<group>"; };
 		DC2E7CE618961F1B0082D873 /* CTDrum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDrum.m; sourceTree = "<group>"; };
 		DC2E7CE8189629700082D873 /* CTRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTRoundButton.h; sourceTree = "<group>"; };
 		DC2E7CE9189629700082D873 /* CTRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTRoundButton.m; sourceTree = "<group>"; };
+		DC2E7CEB189639720082D873 /* CTMusicHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMusicHelper.h; sourceTree = "<group>"; };
+		DC2E7CEC189639720082D873 /* CTMusicHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMusicHelper.m; sourceTree = "<group>"; };
+		DC2E7D8E189640B10082D873 /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colours.h; path = Colours/Colours.h; sourceTree = SOURCE_ROOT; };
+		DC2E7D8F189640B10082D873 /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colours.m; path = Colours/Colours.m; sourceTree = SOURCE_ROOT; };
 		DCD4927D1895F4D1006BC4C4 /* ColorTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD492801895F4D1006BC4C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DCD492821895F4D1006BC4C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,6 +99,7 @@
 				DCD492831895F4D1006BC4C4 /* CoreGraphics.framework in Frameworks */,
 				DCD492851895F4D1006BC4C4 /* UIKit.framework in Frameworks */,
 				DCD492811895F4D1006BC4C4 /* Foundation.framework in Frameworks */,
+				2FA314CD466A4F52BAD6B86B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +123,7 @@
 				DCD492A51895F4D1006BC4C4 /* ColorToneTests */,
 				DCD4927F1895F4D1006BC4C4 /* Frameworks */,
 				DCD4927E1895F4D1006BC4C4 /* Products */,
+				7124726245BF4D93AF29C9AE /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +146,7 @@
 				DCD492821895F4D1006BC4C4 /* CoreGraphics.framework */,
 				DCD492841895F4D1006BC4C4 /* UIKit.framework */,
 				DCD4929F1895F4D1006BC4C4 /* XCTest.framework */,
+				68F542198F7548F0B1A4A96F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,8 +169,12 @@
 				DCD492921895F4D1006BC4C4 /* Main.storyboard */,
 				DCD492951895F4D1006BC4C4 /* CTViewController.h */,
 				DCD492961895F4D1006BC4C4 /* CTViewController.m */,
+				DC2E7CEB189639720082D873 /* CTMusicHelper.h */,
+				DC2E7CEC189639720082D873 /* CTMusicHelper.m */,
 				DC2E7CE8189629700082D873 /* CTRoundButton.h */,
 				DC2E7CE9189629700082D873 /* CTRoundButton.m */,
+				DC2E7D8E189640B10082D873 /* Colours.h */,
+				DC2E7D8F189640B10082D873 /* Colours.m */,
 				DCD492981895F4D1006BC4C4 /* Images.xcassets */,
 				DCD492871895F4D1006BC4C4 /* Supporting Files */,
 			);
@@ -201,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCD492AF1895F4D1006BC4C4 /* Build configuration list for PBXNativeTarget "ColorTone" */;
 			buildPhases = (
+				338682F8589F481CBF87FFDB /* Check Pods Manifest.lock */,
 				DCD492791895F4D1006BC4C4 /* Sources */,
 				DCD4927A1895F4D1006BC4C4 /* Frameworks */,
 				DCD4927B1895F4D1006BC4C4 /* Resources */,
+				99740087B52641D3A5417CEB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +305,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		338682F8589F481CBF87FFDB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
+		99740087B52641D3A5417CEB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCD492791895F4D1006BC4C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -294,10 +343,12 @@
 			files = (
 				DCD4928D1895F4D1006BC4C4 /* main.m in Sources */,
 				DCD492911895F4D1006BC4C4 /* CTAppDelegate.m in Sources */,
+				DC2E7CED189639720082D873 /* CTMusicHelper.m in Sources */,
 				DC2E7CE718961F1B0082D873 /* CTDrum.m in Sources */,
 				DCD492BD1895F5C0006BC4C4 /* TDSineGenerator.m in Sources */,
 				DCD492BC1895F5C0006BC4C4 /* TDHarmonicsGenerator.m in Sources */,
 				DCD492971895F4D1006BC4C4 /* CTViewController.m in Sources */,
+				DC2E7D90189640B10082D873 /* Colours.m in Sources */,
 				DCD492C61895F668006BC4C4 /* ADSR.m in Sources */,
 				DC2E7CEA189629700082D873 /* CTRoundButton.m in Sources */,
 				DCD492BB1895F5C0006BC4C4 /* TDGenerator.m in Sources */,
@@ -424,12 +475,14 @@
 		};
 		DCD492B01895F4D1006BC4C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7124726245BF4D93AF29C9AE /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorTone/ColorTone-Prefix.pch";
+				GCC_WARN_UNUSED_FUNCTION = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -444,12 +497,14 @@
 		};
 		DCD492B11895F4D1006BC4C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7124726245BF4D93AF29C9AE /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorTone/ColorTone-Prefix.pch";
+				GCC_WARN_UNUSED_FUNCTION = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
