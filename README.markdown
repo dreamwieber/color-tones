@@ -11,6 +11,7 @@ https://github.com/dreamwieber/harmonic-drone
 
 Run:
 
+    git submodule init
     git submodule update
     pod install
 
